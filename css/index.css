@@ -1,9 +1,9 @@
 
 :root {
-    --primary-color: #003366;    /* Azul muy oscuro (profesional/SENA) */
-    --accent-color: #00A3E0;     /* Azul eléctrico (tecnología) */
-    --bg-color: #F8FAFC;         /* Blanco azulado suave */
-    --text-color: #1E293B;       /* Gris muy oscuro para legibilidad */
+    --primary-color: #003366;    
+    --accent-color: #00A3E0;     
+    --bg-color: #F8FAFC;         
+    --text-color: #1E293B;       
     --white: #ffffff;
 }
 
