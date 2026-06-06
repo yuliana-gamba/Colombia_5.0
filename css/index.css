@@ -1,0 +1,87 @@
+
+:root {
+    --primary-color: #003366;    /* Azul muy oscuro (profesional/SENA) */
+    --accent-color: #00A3E0;     /* Azul eléctrico (tecnología) */
+    --bg-color: #F8FAFC;         /* Blanco azulado suave */
+    --text-color: #1E293B;       /* Gris muy oscuro para legibilidad */
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.sena-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: var(--white);
+    border-bottom: 3px solid var(--accent-color);
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/* Estilo para los bloques de idioma */
+.lang-block {
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+    margin: 20px 0;
+    background: #f1f7fb;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    margin-top: 40px;
+}
+
+/* Estilo para imágenes */
+img {
+    border: 2px solid var(--accent-color);
+}
